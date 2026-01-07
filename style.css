@@ -35,17 +35,26 @@ body {
   display: flex;
   justify-content: center;
 
-  padding: 32px;
+  padding: 32px 32px 0px;
   gap: 32px;
 }
 
 .clock {
   display: flex;
   flex-direction: column;
+  gap: 8px;
 
   font-family: "Roboto", sans-serif;
   width: 50%;
   max-width: 350px;
+
+  h2 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+  }
 }
 
 .canvas {
