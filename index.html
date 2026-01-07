@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Vida de pinguim</title>
+    <meta
+      name="description"
+      content="Para o amor da minha vida, Laura Branco."
+    />
+
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div id="alert" class="alert-mobile">
+      <h2>Vire o telefone para ter uma visualização melhor</h2>
+    </div>
+
+    <div id="app" class="container">
+      <div class="clock-container">
+        <div class="clock">
+          <h2>Portugal</h2>
+          <p id="timezone_pt"></p>
+        </div>
+
+        <div class="clock">
+          <h2>Brasil</h2>
+          <p id="timezone_br"></p>
+        </div>
+      </div>
+
+      <div style="text-align: center">
+        <p>"Quem tem um porquê enfrenta qualquer como"</p>
+      </div>
+
+      <div class="canvas">
+        <img
+          id="img-left"
+          class="mee_penguin"
+          src="./assets/pinguim_voando.PNG"
+          alt="mee"
+        />
+        <img class="my_penguin" src="./assets/pinguim_esperando.PNG" alt="my" />
+      </div>
+    </div>
+  </body>
+</html>
