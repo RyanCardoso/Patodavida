@@ -6,10 +6,10 @@ const END_DATE = TARGET_DATE_PT;
 
 const TIMEZONE_API_PT =
   /* "https://world-time-api3.p.rapidapi.com/timezone/Europe/Lisbon"; */
-  "http://worldtimeapi.org/api/timezone/Europe/Lisbon";
+  "https://worldtimeapi.org/api/timezone/Europe/Lisbon";
 
 const TIMEZONE_API_BR =
-  "http://worldtimeapi.org/api/timezone/America/Sao_Paulo";
+  "https://worldtimeapi.org/api/timezone/America/Sao_Paulo";
 /* "https://world-time-api3.p.rapidapi.com/timezone/America/Sao_Paulo"; */
 
 const options = {
