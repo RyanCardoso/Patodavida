@@ -5,15 +5,18 @@ const START_DATE = new Date("2026-01-07T00:00:00+00:00").getTime();
 const END_DATE = TARGET_DATE_PT;
 
 const TIMEZONE_API_PT =
-  "https://world-time-api3.p.rapidapi.com/timezone/Europe/Lisbon";
+  /* "https://world-time-api3.p.rapidapi.com/timezone/Europe/Lisbon"; */
+  "http://worldtimeapi.org/api/timezone/Europe/Lisbon";
+
 const TIMEZONE_API_BR =
-  "https://world-time-api3.p.rapidapi.com/timezone/America/Sao_Paulo";
+  "http://worldtimeapi.org/api/timezone/America/Sao_Paulo";
+/* "https://world-time-api3.p.rapidapi.com/timezone/America/Sao_Paulo"; */
 
 const options = {
   method: "GET",
   headers: {
-    "x-rapidapi-key": "1ca25f5e29msh997ce8473650f05p15c697jsn05ff81fcfa74",
-    "x-rapidapi-host": "world-time-api3.p.rapidapi.com",
+    /* "x-rapidapi-key": "1ca25f5e29msh997ce8473650f05p15c697jsn05ff81fcfa74",
+    "x-rapidapi-host": "world-time-api3.p.rapidapi.com", */
   },
 };
 
